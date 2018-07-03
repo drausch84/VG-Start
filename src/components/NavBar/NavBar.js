@@ -9,7 +9,7 @@ const NavBar = props => (
       VGStart
     </Link>
     <div>
-      <ul className="navbar-nav">
+      <ul className="navbar-nav justify-content-end">
       <li>
           <Link to="/" className="nav-link">
             Home

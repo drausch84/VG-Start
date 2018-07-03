@@ -9,7 +9,7 @@ class Login extends React.Component {
                     <LoginForm />
                 </div>
             </div>
-        )
+        );
     }
 }
 

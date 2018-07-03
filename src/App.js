@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 // import MessageBoard from "./pages/MessageBoard";
 // import Sandbox from "./pages/Sandbox";
 // import SignIn from "./pages/SignIn";
+import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
@@ -13,6 +14,7 @@ const App = () => (
   <Router>
     <div>
       <NavBar />
+      <Hero />
       <Wrapper>
         {/* <Route exact path="/" component={Home} />
         <Route exact path="/news" component={News} />
@@ -20,7 +22,7 @@ const App = () => (
         <Route exact path="/sandbox" component={Sandbox} />
         <Route exact path="/sign_in" component={SignIn}/> */}
       </Wrapper>
-      <Footer />
+      {/* <Footer /> */}
     </div>
    </Router>
 );
