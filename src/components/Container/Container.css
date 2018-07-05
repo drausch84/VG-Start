@@ -1,5 +1,5 @@
-.wrapper {
-    background: linear-gradient(ghostwhite, lightgray);
+.container{
+    
     height: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -7,4 +7,4 @@
     align-content: flex-start;
     overflow: auto;
     padding-bottom: 50px;
-  }
+}

@@ -1,24 +1,17 @@
-.hero-image {
-    /* Sizing */
-    width: 100vw;
-    height: 100vh;
-    
-    /* Flexbox stuff */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    /* Text styles */
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: ghostwhite;
     text-align: center;
-    color: white;
+    font-size: 2.5em;
     
-    /* Background styles */
-   
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh; 
-    width: 100vw; 
-    object-fit: cover; 
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: ghostwhite;
+    text-align: center;
+    font-size: 1em;
+}
+
+.parallax-container{
+    height:600px;
 }
