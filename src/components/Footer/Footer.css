@@ -4,5 +4,7 @@
     bottom: 0;
     width: 100%;
     color: ghostwhite;
+    background: black;
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
 }

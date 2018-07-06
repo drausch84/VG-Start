@@ -18,19 +18,11 @@ const App = () => (
       <Nav />
       
       <Hero />
-      <Container>
+      {/* <Container>
 
-      </Container>
+      </Container> */}
       
-     
-      <Wrapper>
-        {/* <Route exact path="/" component={Home} />
-        <Route exact path="/news" component={News} />
-        <Route exact path="/message_board" component={MessageBoard} />
-        <Route exact path="/sandbox" component={Sandbox} />
-        <Route exact path="/sign_in" component={SignIn}/> */}
-      </Wrapper>
-      {/* <Footer /> */}
+      <Footer/>
     </div>
     
    </Router>

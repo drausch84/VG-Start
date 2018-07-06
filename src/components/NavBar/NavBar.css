@@ -1,7 +1,10 @@
-NavItem{
+.nav-i{
     font-family: 'Source Sans Pro', sans-serif;
-    color: grey;
+    color: red;
 }  
 .material-icons{
+    color: red;
+}
+VGStart{
     color: red;
 }
