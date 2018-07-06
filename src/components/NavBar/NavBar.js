@@ -9,7 +9,7 @@ import { Navbar, NavItem, Icon } from 'react-materialize';
   <NavItem className = "nav-i z-depth-2" href="/message-board">Message Board</NavItem>
   <NavItem className = "nav-i z-depth-2" href = "/auction">Auction Sandbox</NavItem>
   <NavItem className = "nav-i z-depth-2" href = "/sign-in">Sign In</NavItem>
-  <NavItem className = "nav-i z-depth-2" href = "/sign-in">Sign Up</NavItem>
+  <NavItem className = "nav-i z-depth-2" href = "/sign-up">Sign Up</NavItem>
 </Navbar>
     };
 export default Nav;

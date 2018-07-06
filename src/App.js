@@ -10,6 +10,7 @@ import Hero from "./components/Hero";
 import Nav from "./components/NavBar";
 import Container from "./components/Container";
 import Footer from "./components/Footer";
+import AuctionCard from "./components/AuctionCard";
 import Wrapper from "./components/Wrapper";
 
 const App = () => (
@@ -18,9 +19,9 @@ const App = () => (
       <Nav />
       
       <Hero />
-      {/* <Container>
-
-      </Container> */}
+      <Container>
+        <AuctionCard/>
+      </Container>
       
       <Footer/>
     </div>
