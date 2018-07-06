@@ -5,13 +5,19 @@ h2{
     font-size: 2.5em;
     
 }
-p{
+.about-p{
     font-family: 'Source Sans Pro', sans-serif;
     color: ghostwhite;
     text-align: center;
     font-size: 1em;
 }
 
+.mission-statement{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: ghostwhite;
+    text-align: center;
+    font-size: 1em;
+}
 .parallax-container{
     height:600px;
 }

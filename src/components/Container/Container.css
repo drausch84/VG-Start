@@ -1,5 +1,5 @@
 .container{
-    background: black;
+    background: linear-gradient(ghostwhite, black);
     height: 100%;
     display: flex;
     flex-flow: row wrap;

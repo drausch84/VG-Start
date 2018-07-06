@@ -11,7 +11,8 @@ import Nav from "./components/NavBar";
 import Container from "./components/Container";
 import Footer from "./components/Footer";
 import AuctionCard from "./components/AuctionCard";
-import Wrapper from "./components/Wrapper";
+import MessageBoard from "./components/MessageBoardCard";
+import {Col, Row} from "react-materialize";
 
 const App = () => (
   <Router>
@@ -19,8 +20,22 @@ const App = () => (
       <Nav />
       
       <Hero />
-      <Container>
-        <AuctionCard/>
+      <Container style = {{marginTop:60}}>
+      <Row> 
+        <Col l = {12}>
+        <h1>VGStart Special Features</h1>
+        </Col>
+        </Row>
+        <Row>
+        <Col m = {5}>
+          <AuctionCard/>
+        </Col>
+        <Col m = {2}>
+        </Col>
+        <Col m = {5}>
+          <MessageBoard/>
+        </Col>
+        </Row>
       </Container>
       
       <Footer/>
